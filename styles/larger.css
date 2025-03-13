@@ -1,0 +1,46 @@
+/* Styles for large screens */
+body {
+    font-family:Comfortaa, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background: #f5d1d1;
+    color: #2e2c2c;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+  }
+  
+  section {
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .location img {
+    width: 50%;
+    height: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  

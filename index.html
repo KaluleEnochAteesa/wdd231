@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web and Computer Programming Certificate">
+  <title>Web & Computer Programming</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Ubuntu:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+   
+  
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <!-- Custom CSS Files -->
+  <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 769px)">
+  <link rel="stylesheet" href="styles/small.css" media="screen and (max-width: 768px)">
 </head>
 <body>
-    <ul>
-        <h1>kalule</h1>
-        <h2>kalule</h2>
-        <h3>kalule</h3>
-        <h4>kalule</h4>
-    </ul>
+  <header>
+    <div class="profile">
+      <img src="images/profile.webp" alt="Profile Picture">
+      <h1>Kalule  Enoch</h1>
+    </div>
+    <nav>
+      <!-- Hamburger Menu -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="menu" class="hidden">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="https://github.com/KaluleEnochAteesa">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/ateesa-enoch-04165029b">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="coursework">
+      <div class="courses">
+        <h2>Course Work</h2>
+        <div id="course-list"></div>
+      </div>
+      <div class="location">
+        <h2>Toloria, Madagascar</h2>
+        <img src="images/tuba.webp" alt="Tuba Tree">
+        <p class="caption">Tuba Trees</p>
+      </div>
+    </section>
+
+    <section class="certificate">
+      <h2>Web and Computer Programming Certificate</h2>
+      <div class="filters">
+        <button id="filter-all">All</button>
+        <button id="filter-cse">CSE</button>
+        <button id="filter-wdd">WDD</button>
+      </div>
+      <div id="credit-total"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> 🌸 Kalule Enoch Ateesa 🌸 Uganda<img src="images/flag.webp" alt="Flag" width="50px"></p>
+    <p>Last Update: <span id="last-modified"></span></p>
+  </footer>
+  
+  <!-- JavaScript Files -->
+  <script src="scripts/course.js" type="module"></script>
+  <script src="scripts/date.js" type="module"></script>
+  <script src="scripts/main.js" type="module"></script>
 </body>
 </html>

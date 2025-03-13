@@ -1,0 +1,63 @@
+/* Styles for small screens */
+/* Styles for small screens */
+body {
+  font-family: Ubuntu, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  position: relative;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.hamburger-menu span {
+  background: white;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #444;
+  text-align: center;
+  display: none; /* Hidden by default */
+  flex-direction: column;
+}
+
+#menu li {
+  margin: 10px 0;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu.hidden {
+  display: none;
+}
+
+#menu.visible {
+  display: flex;
+}
