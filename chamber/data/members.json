@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Idaho Websites",
+        "address": "2115 S Vista Avenue, Boise ID 83705",
+        "phone": "(208) 342-9386",
+        "website": "https://idahowebsites.com/",
+        "image": "images/idaho-websites.jpg"
+    },
+    {
+        "name": "Surge Web Design",
+        "address": "4072 E Arch Drive, Meridian ID 83646",
+        "phone": "(208) 631-0640",
+        "website": "https://www.surgewebdesign.com/",
+        "image": "images/surge-web-design.jpg"
+    },
+    {
+        "name": "Graphic Zen",
+        "address": "1788 E Summerplace Court, Meridian ID 83646",
+        "phone": "(208) 631-4984",
+        "website": "https://graphiczen.com/",
+        "image": "images/graphic-zen.jpg"
+    }
+]
