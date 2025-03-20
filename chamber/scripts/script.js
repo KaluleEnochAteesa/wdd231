@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         members.forEach(member => {
             html += `
                 <section>
-                    <img src="${member.image}" alt="${member.name}">
+                    <img src="${member.image}" alt="${member.name}" width="100px">
                     <h3>${member.name}</h3>
                     <p>${member.address}</p>
                     <p>${member.phone}</p>
