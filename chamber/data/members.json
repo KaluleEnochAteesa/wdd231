@@ -19,5 +19,41 @@
         "phone": "(208) 631-4984",
         "website": "https://graphiczen.com/",
         "image": "images/graphic-zen.jpg"
+    },
+    {
+        "name": "Rocket Web Development",
+        "address": "3103 W Bannock Street, Boise ID 83702",
+        "phone": "(208) 555-1234",
+        "website": "https://rocketwebdev.com/",
+        "image": "images/rocket-web-development.jpg"
+    },
+    {
+        "name": "Boise Creative Studio",
+        "address": "5122 N Glenwood Street, Boise ID 83714",
+        "phone": "(208) 777-4567",
+        "website": "https://boisecreativestudio.com/",
+        "image": "images/boise-creative-studio.jpg"
+    },
+    {
+        "name": "Zenith Web Solutions",
+        "address": "8650 N Fairview Avenue, Boise ID 83704",
+        "phone": "(208) 888-9876",
+        "website": "https://zenithwebsolutions.com/",
+        "image": "images/zenith-web-solutions.jpg"
+    },
+    {
+        "name": "Elevate Designs",
+        "address": "4001 W Overland Road, Boise ID 83705",
+        "phone": "(208) 321-6543",
+        "website": "https://elevatedesigns.com/",
+        "image": "images/elevate-designs.jpg"
+    },
+    {
+        "name": "Aspire Digital Studio",
+        "address": "2450 S Apple Street, Boise ID 83706",
+        "phone": "(208) 999-5555",
+        "website": "https://aspiredigitalstudio.com/",
+        "image": "images/aspire-digital-studio.jpg"
     }
 ]
+
