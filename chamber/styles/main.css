@@ -70,3 +70,180 @@ footer {
     margin-top: 1rem;
     font-size: 0.85rem;
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #00274d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #004b8d;
+    border-radius: 5px;
+}
+
+button.theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    background: url('images/hero-large.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+}
+
+.hero .cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d9534f;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .cta:hover {
+    background-color: #b52b1f;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Events Section */
+#events ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#events ul li {
+    background: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+/* Weather Section */
+#weather {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#forecast p {
+    margin: 0.5rem 0;
+}
+
+/* Spotlight Section */
+#spotlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.spotlight-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer address {
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .hero {
+        height: 200px;
+        background: url('images/hero-mobile.jpg') no-repeat center center/cover;
+    }
+
+    .hero .cta {
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    #spotlights {
+        flex-direction: column;
+        align-items: center;
+    }
+}

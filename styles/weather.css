@@ -1,0 +1,92 @@
+/* General reset for consistent styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #e0f7fa, #e1bee7);
+    color: #333;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    color: #4a148c;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px #d1c4e9;
+}
+
+/* Main section styling */
+main {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph and span */
+p {
+    font-size: 1.2rem;
+}
+
+#current-temp {
+    font-weight: bold;
+    color: #00796b;
+}
+
+/* Weather figure styling */
+figure {
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100px;
+    border: 2px solid #8e24aa;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    color: #8e24aa;
+    font-style: italic;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #006064;
+    color: white;
+    font-size: 0.9rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for weather cards */
+section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+section h2 {
+    color: #00796b;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 80px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #333;
+}

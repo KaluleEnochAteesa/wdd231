@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Miguel Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>San Miguel Chamber of Commerce</h1>
+        <button class="theme-toggle">🌙</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#directory">Directory</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/hero.jpg" alt="Chamber of Commerce Hero Image">
+        <a href="join.html" class="cta">Join the Chamber</a>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Current Events Section -->
+        <section id="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>Networking Event: April 5, 2025</li>
+                <li>Community Fair: May 10, 2025</li>
+            </ul>
+        </section>
+
+        <!-- Weather Section -->
+        <section id="weather">
+            <h2>Weather</h2>
+            <p id="temperature">Loading temperature...</p>
+            <p id="description">Loading weather description...</p>
+            <div id="forecast">
+                <!-- Weather forecast will be dynamically loaded -->
+            </div>
+        </section>
+
+        <!-- Spotlight Section -->
+        <section id="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container">
+                <!-- Spotlight cards dynamically loaded -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <address>
+            San Miguel Chamber of Commerce<br>
+            123 Main Street, San Miguel, El Salvador<br>
+            Email: info@sanmiguelchamber.org<br>
+            Phone: +503-555-1234
+        </address>
+        <ul>
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+        </ul>
+        <p>© 2025 San Miguel Chamber of Commerce</p>
+    </footer>
+</body>
+</html>

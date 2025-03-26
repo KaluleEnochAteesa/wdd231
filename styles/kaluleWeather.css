@@ -1,0 +1,27 @@
+/* Styling for weather cards */
+section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+section h2 {
+    color: #00796b;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 80px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #333;
+}
