@@ -121,7 +121,7 @@ button.theme-toggle {
 .hero {
     position: relative;
     text-align: center;
-    background: url('images/hero-large.jpg') no-repeat center center/cover;
+    background: url('images/her0_image.webp') no-repeat center center/cover;
     height: 400px;
     color: white;
 }
@@ -231,7 +231,7 @@ footer p {
 
     .hero {
         height: 200px;
-        background: url('images/hero-mobile.jpg') no-repeat center center/cover;
+        background: url('images/hero_image_small.webp') no-repeat center center/cover;
     }
 
     .hero .cta {

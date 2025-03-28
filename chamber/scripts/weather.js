@@ -1,4 +1,4 @@
-const apiKey = 'your_api_key';
+const apiKey = '14245f3391863371482ab1e095f63162';
 const city = 'San Miguel, El Salvador';
 
 async function fetchWeather() {
