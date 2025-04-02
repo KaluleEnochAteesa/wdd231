@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #f24d4d;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+label {
+    margin-bottom: 1rem;
+}
+#membership-cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+    #membership-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

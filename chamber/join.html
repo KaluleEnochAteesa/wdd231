@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Chamber</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.htm">Directory</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="GET" action="thankyou.html">
+            <label>
+                First Name: <input type="text" name="first-name" title="Enter your first name" autocomplete="given-name" required>
+            </label>
+            <label>
+                Last Name: <input type="text" name="last-name" title="Enter your last name" autocomplete="family-name" required>
+            </label>
+            <label>
+                Organizational Title: <input type="text" name="organization-title" title="Enter your title (e.g., Manager)" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}">
+            </label>
+            <label>
+                Email: <input type="email" name="email" title="Enter your email address" autocomplete="email" placeholder="example@example.com" required>
+            </label>
+            <label>
+                Mobile Phone: <input type="tel" name="mobile-phone" title="Enter your mobile phone number" autocomplete="tel" required>
+            </label>
+            <label>
+                Business/Organization Name: <input type="text" name="organization" title="Enter your organization name" autocomplete="organization" required>
+            </label>
+            <label>
+                Membership Level:
+                <select name="membership-level" title="Select a membership level">
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <label>
+                Business Description:
+                <textarea name="business-description" title="Describe your business"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Submit">
+        </form>
+        <section id="membership-cards">
+            <!-- Membership cards go here -->
+        </section>
+    </main>
+    <footer>
+        <address>
+            San Miguel Chamber of Commerce<br>
+            123 Main Street, San Miguel, El Salvador<br>
+            Email: info@sanmiguelchamber.org<br>
+            Phone: +503-555-1234
+        </address>
+        <ul>
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+        </ul>
+        <p>© 2025 San Miguel Chamber of Commerce</p>
+        <p>&copy; 2025 Chamber</p>
+    </footer>
+</body>
+</html>
