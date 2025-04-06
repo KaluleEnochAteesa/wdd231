@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Ubuntu:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your own herbal remedy.">
+    <meta name="author" content="Kalule Enoch Ateesa">
+
+    <title>Submit Herbal Remedy</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Local Herbal Remedies Collection.org<img src="images/localherbalremedies.jpeg" alt="logo" width="100"></h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="remedies.html">Remedies</a></li>
+                <li><a href="submit.html">Submit Remedy</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <h2>Submit Your Remedy</h2>
+        <form id="remedy-form">
+            <label for="remedy-name">Remedy Name:</label>
+            <input type="text" id="remedy-name" name="remedy-name" placeholder="Onion punch..." required>
+            
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" placeholder="Fresh onion , Hawaian Punch..." required></textarea>
+            
+            <label for="preparation">Preparation Method:</label>
+            <textarea id="preparation" name="preparation" placeholder="Blend for 5 minutes and freeze for..." required></textarea>
+            
+            <label for="ailment">Ailment Healed:</label>
+            <input type="text" id="ailment" name="ailment" placeholder="Hang over..." required>
+            
+            <label for="developer">Developer's Details:</label>
+            <input type="text" id="developer" name="developer" placeholder="Bar tender - George Cooper..." required>
+            
+            <label for="approval-status">Scientific Approval Status:</label>
+            <select id="approval-status" name="approval-status" required>
+                <option value="pending">Pending</option>
+                <option value="approved">Approved</option>
+            </select>
+            
+            <label for="royalties">Receiving Royalties:</label>
+            <input type="checkbox" id="royalties" name="royalties">
+            
+            <button type="submit">Submit Remedy</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Local Herbal Remedies Collection | <a href=siteplan.htmll">References</a> | Last updated: <span id="last-updated"></span></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/formHandler.js"></script>
+</body>
+</html>

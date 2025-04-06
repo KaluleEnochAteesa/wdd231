@@ -1,0 +1,23 @@
+
+body {
+    font-family: Ubuntu, Arial, sans-serif; /* Default font */
+    color: #333; /* Default text color */
+}
+h1, h2, h3 {
+    font-family: Comfortaa , 'Georgia', serif; /* Heading font */
+    color: #4CAF50; /* Heading color */
+}
+.content-section {
+    margin: 20px 0;
+}
+.color-example {
+    height: 20px;
+    width: 100px;
+    display: inline-block;
+}
+.color1 {
+    background-color: #4CAF50; /* Primary color */
+}
+.color2 {
+    background-color: #FFD700; /* Secondary color */
+}
