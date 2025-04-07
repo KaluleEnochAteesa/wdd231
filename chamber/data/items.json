@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Local Art Gallery",
+        "address": "123 Main St.",
+        "description": "A vibrant hub for artists in Makindye.",
+        "image": "idaho.webp"
+    },
+    {
+        "name": "Historical Museum",
+        "address": "456 Heritage Rd.",
+        "description": "Explore the rich history of Uganda.",
+        "image": "surge.webp"
+    },
+    {
+        "name": "Community Park",
+        "address": "789 Green Ave.",
+        "description": "A peaceful spot for recreation and relaxation.",
+        "image": "zen.webp"
+    },
+    {
+        "name": "Herbal Remedies Shop",
+        "address": "1010 Health Ln.",
+        "description": "A shop offering locally sourced herbal remedies.",
+        "image": "rocket.webp"
+    },
+    {
+        "name": "Crafts Market",
+        "address": "2020 Artisan Blvd.",
+        "description": "A market showcasing local crafts and handmade goods.",
+        "image": "boise.webp"
+    },
+    {
+        "name": "Music Studio",
+        "address": "3030 Melody Rd.",
+        "description": "A state-of-the-art music recording and production facility.",
+        "image": "zenith.webp"
+    },
+    {
+        "name": "Cultural Center",
+        "address": "4040 Heritage Circle.",
+        "description": "A center dedicated to preserving and celebrating local culture.",
+        "image": "elevate.webp"
+    },
+    {
+        "name": "Fitness Gym",
+        "address": "5050 Wellness Dr.",
+        "description": "A gym offering modern equipment and personal training services.",
+        "image": "aspire.webp"
+    }
+]

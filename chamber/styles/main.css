@@ -79,7 +79,7 @@ body {
 }
 
 header, footer {
-    background-color: #00274d;
+    background-color: hsl(210, 100%, 15%);
     color: white;
     text-align: center;
     padding: 1rem;

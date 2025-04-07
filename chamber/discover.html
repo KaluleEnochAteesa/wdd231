@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You!</title>
-    <link rel="stylesheet" href="styles/join.css">
+    <title>Join Us</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <script src="scripts/discover.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,20 +20,16 @@
                 <li><a href="discover.html" class="active">Discover</a></li>
             </ul>
         </nav>
-
-        <h1>Thank You for Joining!</h1>
     </header>
     <main>
+        <section id="cards-container">
+            <!-- Cards will be dynamically generated here -->
+        </section>
 
-        <p>We’ve received your application with the following details:</p>
-        <ul>
-            <li>First Name: [first name]</li>
-            <li>Last Name: [last name]</li>
-            <li>Email: [email]</li>
-            <li>Mobile Phone: [mobile phone]</li>
-            <li>Business Name: [business name]</li>
-            <li>Timestamp: [timestamp]</li>
-        </ul>
+        <aside id="sidebar-message">
+            <!-- Visitor message area -->
+        </aside>
+        
     </main>
     <footer>
         <address>
