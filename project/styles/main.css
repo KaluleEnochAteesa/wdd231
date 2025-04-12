@@ -181,3 +181,8 @@ nav ul.nav-links li a.active {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
+#weather-icon-mykonos {
+    width: 100px;
+    height: 100px;
+  }
+  
